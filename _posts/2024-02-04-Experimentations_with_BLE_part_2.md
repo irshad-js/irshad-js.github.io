@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Experimentations_with_BLE_part_2"
+title: "Experimentations with BLE - part 2"
 date: 2024-02-04 02:00:00 +0100
 categories: [Bluetooth Low Energy]
 tags: [BLE,DTM,stack]

@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Experimentations_with_QPC_part_1"
+title: "Experimentations with QPC - part 1"
 date: 2024-03-16 02:00:00 +0100
 categories: [Hierarchical state machines]
 tags: [HSM,QPC,STATECHARTS]
