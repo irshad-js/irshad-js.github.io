@@ -16,7 +16,7 @@ If you have reached this post which is the final part of the two-part blog post,
 
 Please click on the image below to start the presentation.
 
-[![Part - 1]({{site.data.navigation.Images[4][0]}})]({{site.data.navigation.Links[4][0]}})
+{% include embed/youtube.html id='KrsDxma99rU' %}
 
 In this video presentation, I take the time to show everyone the hardware and software requirements to carry on with the experimentation.
 
@@ -28,7 +28,7 @@ Following the first experimentation, the second one that follows tries the time 
 
 Please click on the image below to start the presentation.
 
-[![Part - 2]({{site.data.navigation.Images[4][1]}})]({{site.data.navigation.Links[4][1]}})
+{% include embed/youtube.html id='wJzRq4cJlUM' %}
 
 Continuing from the previous video, this presentation starts by experimenting with the publish-subscribe mechanism first. In the QM model, any existing timeout transition triggers and entry/exit actions are deleted. The initial transition is made to subscribe to the button-pressed event. Some storage is allocated in the bsp init function for the QP framework to handle the publish-subscribe mechanism. Finally, the button handler function is designed to publish a static event whenever the function is triggered. This essentially creates an application that toggles the LED when the button is pressed. Running the QSPY tool in parallel yields useful information about the system.
 
@@ -44,4 +44,4 @@ When I followed along the Udemy course from Kiran Nayak on the same topic, I exp
 
 Please click on the image below to start the YouTube presentation:
 
-[![Part - 3]({{site.data.navigation.Images[4][2]}})]({{site.data.navigation.Links[4][2]}})
+{% include embed/youtube.html id='N9bOlTw0apw' %}

@@ -26,4 +26,4 @@ I've condensed my observation/experimentation on the inner workings of the proto
 
 Please click on the image below to start the YouTube video.
 
-[![Part - 1]({{site.data.navigation.Images[1][0]}})]({{site.data.navigation.Links[1][0]}})
+{% include embed/youtube.html id='K1_faNC7W3E' %}

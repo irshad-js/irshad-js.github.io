@@ -32,4 +32,4 @@ In the video presentation mentioned above, several blocks are disabled momentari
 
 Please click on the image below to start the YouTube video presentation.
 
-[![Part - 2]({{site.data.navigation.Images[2][0]}})]({{site.data.navigation.Links[2][0]}})
+{% include embed/youtube.html id='fmAM97e1No0' %}
