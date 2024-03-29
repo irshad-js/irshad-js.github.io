@@ -10,9 +10,11 @@ tags: [BLE,DTM,stack,Book review]
 
 This isn't a blog post introducing the readers to the technical details behind the Bluetooth Low Energy protocol as there exists already a wealth of such information authored by individuals and organizations working with BLE. Some of the most helpful introductory work to understand Bluetooth Low Energy can be seen in Robin Heydon's book titled "Bluetooth Low Energy: The Developer's Handbook".
 
+![]()  |  ![]({{site.data.navigation.Images[1][1]}}) | ![]() 
 
 In his book, Mr. Robin Heydon starts by introducing the readers to the power consumption requirements for the legacy Bluetooth classic protocol and the need for a much more power-optimized protocol in this current generation where everything has to connect to the World Wide Web. Also, he dedicates a chapter to each of the layers in the Bluetooth Low Energy stack and explains carefully how they all come together to create a power-efficient wireless protocol. Going through this work, I felt everything about the BLE protocol has been talked about and covered.
 
+![]()  |  ![]({{site.data.navigation.Images[1][2]}}) | ![]() 
 
 Another helpful reference book is from Mr. Mohammad Afaneh titled "Intro to Bluetooth Low Energy: The easiest way to learn BLE".
 
@@ -24,3 +26,4 @@ I've condensed my observation/experimentation on the inner workings of the proto
 
 Please click on the image below to start the YouTube video.
 
+[![Part - 1]({{site.data.navigation.Images[1][0]}})]({{site.data.navigation.Links[1][0]}})
