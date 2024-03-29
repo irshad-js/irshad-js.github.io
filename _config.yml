@@ -16,7 +16,7 @@ timezone: Europe/Amsterdam
 
 title: Bits32 # the main title
 
-tagline: Excerpts from my personal learning # it will display as the sub-title
+tagline: Excerpts from my learning # it will display as the sub-title
 
 description: >- # used by seo meta and the atom feed
   Blog about embedded software and firmware engineering.
