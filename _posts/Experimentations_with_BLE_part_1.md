@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Experimentation with BLE's Direct Test Mode - Part 1"
+title: "Experimentations_with_BLE_part_1"
 date: 2024-02-04 02:00:00 +0100
 categories: [Bluetooth Low Energy]
 tags: [BLE,DTM,stack,Book review]
