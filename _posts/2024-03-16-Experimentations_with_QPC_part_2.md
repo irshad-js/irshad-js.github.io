@@ -45,3 +45,6 @@ When I followed along the Udemy course from Kiran Nayak on the same topic, I exp
 Please click on the image below to start the YouTube presentation:
 
 {% include embed/youtube.html id='N9bOlTw0apw' %}
+
+{% include disqus.html %}
+ 
