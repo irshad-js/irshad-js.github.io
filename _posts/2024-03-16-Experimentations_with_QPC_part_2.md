@@ -67,5 +67,5 @@ Please click on the image below to start the YouTube presentation:
     })();
 </script>
 <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
-<script id="dsq-count-scr" src="//bits32.disqus.com/count.js" async></script>
+<script id="dsq-count-scr" src="https://bits32.disqus.com/count.js" async></script>
 {% endif %} 
