@@ -84,7 +84,7 @@ social_preview_image: # string, local or CORS resources
 toc: true
 
 comments:
-  active: yes 
+  active: disqus 
   # The active options are as follows:
   disqus:
     shortname: bits32.disqus.com
