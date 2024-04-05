@@ -47,8 +47,8 @@ Please click on the image below to start the YouTube presentation:
 
 {% include embed/youtube.html id='N9bOlTw0apw' %}
 
- {% if page.comments %} 
- <div id="disqus_thread"></div>
+{% if page.comments %} 
+<div id="disqus_thread"></div>
 <script>
     /**
     *  RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
@@ -67,4 +67,5 @@ Please click on the image below to start the YouTube presentation:
     })();
 </script>
 <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
- {% endif %} 
+<script id="dsq-count-scr" src="//bits32.disqus.com/count.js" async></script>
+{% endif %} 
