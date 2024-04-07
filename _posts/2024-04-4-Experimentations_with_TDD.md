@@ -8,6 +8,15 @@ tags: [TDD]
 
 ### Recommended reading
 
+The git repo associated with this blog post is here: [Experiments with TDD]({{site.data.navigation.Links[5][0]}})
+
+This blog does not explain how Test-Driven Development works or the reasoning behind it. That's because, enough information about the topics exists already, especially by James Grenning in his fantastic book Test Driven Development for Embedded C.
+
+![]({{site.data.navigation.Images[5][0]}}) 
+
+In the following sections of this blog post, I'll share my journey of experimenting with the ideas outlined in the book. I have also shown in the first section, here, the development environment and the setup to develop, debug, and execute the tests.
+
+
 ### Setup for development and debugging
 
 {% include embed/youtube.html id='-TOt6V2Ryk0' %}
@@ -35,3 +44,4 @@ tags: [TDD]
 ### Chapter 10 walkthrough
 
 {% include embed/youtube.html id='rG-m86lLbOw' %}
+
