@@ -37,6 +37,5 @@ Our sister team had an engineer [], who has been in the industry for so long tha
 
 As a maintainer of the internal characterization tool, I was also tasked with debugging/developing flash loaders for various old and new devices. I used the opportunity to develop a generic flash driver based on the JEDEC standard. Every FLASH memory device that was JEDEC compliant was able to operate with the generic flash loader.
 
-Later in the year, Simon sent me to ARM basic training at Doulos, in the UK, to pick up the basics of ARM architecture. At Doulous, excellent trainers used a well-crafted curriculum to demonstrate and display the basic concepts of how ARM cortex - M range of microcontrollers worked under the hood, right from instruction fetching, decoding, and pipelines. Various hard fault mechanisms and debugger options were also shown clearly.
-
+The environment was conducive enough to encourage me to start a journey of learning embedded system (software and hardware) concepts and become experienced within them.
 
