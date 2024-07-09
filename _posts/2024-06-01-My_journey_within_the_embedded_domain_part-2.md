@@ -20,7 +20,7 @@ Soon enough, I was tasked with helping Dennis, the main bootrom developer for bo
 
 ![]({{site.data.navigation.Images[7][1]}}) 
 
-### Hi Dennis !
+### Hi Dennis!
 
 Dennis had devised elaborate test plans to cover all known corner cases, possible failure paths, and the normal testing paths. The happy path of testing where everything is supposed to work was the simplest. The test cases would often be like "So the UART loading has to work. Try building an application and load the binary via the UART". The device depended on XIP (execute in place) with an externally connected QSPI flash. The device could also run from the application loaded into the RAM region as well. For testing the problematic cases, Dennis would often implement cases where the bugs and issues were automatically injected artificially during the bootup process. This helped to take care of correcting the possible corner cases within the flow of control.
 
@@ -41,4 +41,5 @@ In the middle of the year, Simon sent me to ARM basic training at Doulos, in the
 Apart from on-site training, I focussed on online and on-demand courses from Udemy to enhance my skillset as well. Specifically, 
 
 ![]({{site.data.navigation.Images[7][3]}}) 
+
 
