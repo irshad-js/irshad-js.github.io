@@ -38,7 +38,11 @@ This is the instance where the rubber met the road. All the theories that I was 
 
 Halfway through the year, I was slowly hearing how great the Kicad PCB design program was shaping up. Everyone had good things to say about this. I wanted to try it out but I never really had a formal introduction to the subject. I stumbled upon a Udemy course from Dr.Peter Dalmaris called "KiCad Like a Pro 2nd edition". I enjoyed the course from start to finish. The instructor covers the flow from the normal schematic stage to the PCB layout and routing stage.
 
-As I had started this year to experiment heavily with BLE, I wanted to do something on the same line with the PCB design experimentation. I found a Nordic BLE module in Aliexpress. I decided to create a base board for this module to use my newfound PCB design. I created a base board and sent it to JLCPCB in China. The first run had a quick problem with the SWD connectors. The connectors had a smaller secret storage area than the intended one. I quickly re-did and corrected the design and had it manufactured. This time, everything went ok and my first PCB design was indeed successful.
+As I had started this year to experiment heavily with BLE, I wanted to do something on the same line with the PCB design experimentation. I found a Nordic BLE module in Aliexpress. I decided to create a base board for this module to use my newfound PCB design. I created a base board and sent it to JLCPCB in China. The first run had a quick problem with the SWD connectors. The connectors had a smaller footprint than the intended one. 
+
+![]({{site.data.navigation.Images[9][9]}})
+
+I quickly re-did and corrected the design and had it manufactured. This time, everything went ok and my first PCB design was indeed successful.
 
 Dr. Peter also displays my PCB on his webpage over here: [NRF52 Base board]({{site.data.navigation.Links[9][0]}})
 
