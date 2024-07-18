@@ -10,8 +10,10 @@
   ["/assets/img/welcome_at_dialog.jpg","/assets/img/den-bosch.jpg","/assets/img/master-thesis.jpg","/assets/img/TU-chemnitz-1.jpg","/assets/img/TU-chemnitz-2.jpg","/assets/img/dialog.jpg"],
   ["/assets/img/1469x.png","/assets/img/boot.png","/assets/img/doulos.png","/assets/img/udemy.jpg"],
   ["/assets/img/dctmon.jpg","/assets/img/da1469x_devkit.jpg","/assets/img/udemy_freertos.jpg","/assets/img/Heydon_BLE.png","/assets/img/udemy_embedded_dev.jpg"],
-  ["/assets/img/n2t.png","/assets/img/dtm_usecase.jpg","/assets/img/pcb.jpg","/assets/img/2020_2.jpg","/assets/img/Enc_dec_1.png","/assets/img/Enc_dec_2.png","/assets/img/Enc_dec_3.png","/assets/img/Enc_dec_4.png","/assets/img/2020_1.jpg","/assets/img/wrong.jpg"]
-	],
+  ["/assets/img/n2t.png","/assets/img/dtm_usecase.jpg","/assets/img/pcb.jpg","/assets/img/2020_2.jpg","/assets/img/Enc_dec_1.png","/assets/img/Enc_dec_2.png","/assets/img/Enc_dec_3.png","/assets/img/Enc_dec_4.png","/assets/img/2020_1.jpg","/assets/img/wrong.jpg"],
+  ["/assets/img/2021_1.jpg","/assets/img/hackrf.jpg","/assets/img/ble_dtm_setup.jpg"]
+  	
+],
 	"Links":
 	[
 	[""],
@@ -23,6 +25,7 @@
   [""],
   [""],
   ["https://github.com/irshad-js/FreeRTOS-experimentations"],
-  ["https://techexplorations.com/st/kicad-like-a-pro-project-showcase/"]
+  ["https://techexplorations.com/st/kicad-like-a-pro-project-showcase/"],
+  ["https://greatscottgadgets.com/sdr/","https://irshad-js.github.io/posts/Experimentations_with_BLE_part_1/", "https://irshad-js.github.io/posts/Experimentations_with_BLE_part_2/"]
 	]
 }
