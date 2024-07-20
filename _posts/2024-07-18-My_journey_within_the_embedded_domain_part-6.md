@@ -40,13 +40,13 @@ Kindly find my un-edited notes on design patterns, object-oriented C, and SOLID 
 
 ### Test-driven development
 
-Over the years, I have heard about unit tests being recommended everywhere by software developers. Strangely, the embedded software domain is quite silent on this topic. You will have to make a conscious effort to find the people in the embedded software domain who practice and preach this type of software testing. I had a chance to quickly run through the famous book "Test Driven Development for Embedded C" by James Grenning. (P.S. Later in 2023, I will invest considerable time and effort to read the book more carefully the second time and practice the code snippet exercises as recorded here: [TDD practice]({{site.data.navigation.Links[11][3]}}))
+Over the years, I have heard about unit tests being recommended everywhere by software developers. Strangely, the embedded software domain is quite silent on this topic. You will have to make a conscious effort to find the people in the embedded software domain who practice and preach this type of software testing. I had a chance to quickly run through the famous book "Test Driven Development for Embedded C" by James Grenning. (P.S. Later in 2023, I will invest considerable time and effort to read the book more carefully the second time and practice the code snippet exercises as recorded here: [TDD practice]({{site.data.navigation.Links[11][3]}}) )
 
 My initial impression was mixed. (This is mostly because I couldn't see the big picture of where this TDD fits, yet). I grasped that such a concept exists and didn't care much to get to know or try experimenting more on the topic at that moment.
 
 ### Hierarchical state machines
 
-Going through Dr.Miro's content on his website, [Quantum leaps]({{site.data.navigation.Links[11][4]}})), and on his YouTube channel, [Dr.Miro's YouTube]({{site.data.navigation.Links[11][0]}})), I became interested in learning more about UML, state machines, and event-driven embedded software architecture. On the Udemy platform, I took a course from Kiran on the same topic. I have more detailed observations on Dr. Miro’s content over here: [QPC - 1]({{site.data.navigation.Links[11][5]}})) and here: [QPC - 2]({{site.data.navigation.Links[11][6]}}))
+Going through Dr.Miro's content on his website, [Quantum leaps]({{site.data.navigation.Links[11][4]}}), and on his YouTube channel, [Dr.Miro's YouTube]({{site.data.navigation.Links[11][0]}}), I became interested in learning more about UML, state machines, and event-driven embedded software architecture. On the Udemy platform, I took a course from Kiran on the same topic. I have more detailed observations on Dr. Miro’s content over here: [QPC - 1]({{site.data.navigation.Links[11][5]}}) and here: [QPC - 2]({{site.data.navigation.Links[11][6]}})
 
 ![Udemy certificate of completion for the program "Embedded System Design using UML State Machines"]({{site.data.navigation.Images[11][2]}}) 
 
@@ -89,7 +89,8 @@ It was interesting to observe the product release planning and deployment cycles
 At the end of the year, 2022, I had an opportunity to work at a startup that tried to tape out GPS-based microcontrollers. There, I had the chance to improve my Python experience by building a Windows-only programmer based on cli. This programmer talked with the USB FTDI chip on board the dev board and used the libMPSSE engine provided by the FTDI to create a custom SPI library capable of handling single SPI flash operations. I had a chance to improve the bootrom of the microcontroller. I was able to pick up the theory behind the GNSS protocol as well.
 
 
-``` Unedited notes from back in 2022 about object-oriented concepts and SOLID
+```
+Unedited notes from back in 2022 about object-oriented concepts and SOLID
 
 SOLID design and Object-oriented concepts in C
 
@@ -115,6 +116,9 @@ The new supported flashes that are often added to the support list would be Quad
 
 New flash devices are free to implement any functionality from the base interface class it deems fit thereby satisfying the Interface segregation principle. The design isolates the high-level interface and low-level code using function pointers and hence satisfies the dependency inversion principle.
 
+```
+
+```
 Observations on object-oriented concepts:
 
 Polymorphism - Overloading and Overriding are different - (static or compile time polymorphism) Overloading is when the class has multiple functions with the same name but different inputs (Dynamic polymorphism) and overriding is during run time where the abstract definition of a method from the parent class is defined again with different functionalities in the child class.
@@ -131,6 +135,9 @@ Encapsulation - Objects that self-contain methods and attributes/properties into
 
 Inheritance - Base Classes can have their properties inherited by Child classes. Methods and attributes/properties from Base classes are usable by child classes.
 
+```
+
+```
 Objects in C:
 
 Structs are the de-facto objects in C
@@ -140,6 +147,10 @@ Inheritance is possible as new structs with base structs included in them can be
 Polymorphism is possible using function pointers and tables - In effect, the main function is going to reference a function with the same name, but depending upon the struct object the reference is going to invoke a different function with a different struct. Hence polymorphism is achieved. One name, many forms.
 
 Encapsulation is possible by encapsulating functions and data to be acted on into the same struct
+
+```
+
+```
 
 Observer design pattern - Extremely useful design pattern that creates (Publishers that are called Subjects and Subscribers that are called Observers). Observer objects subscribe to Subject objects to be notified when data changes or new data is available.
 
