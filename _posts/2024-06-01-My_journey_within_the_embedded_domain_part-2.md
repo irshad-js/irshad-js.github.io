@@ -12,13 +12,13 @@ tags: [Experience]
 
 This year, my then-company was already in the process of taping out their flagship BLE-based microcontroller (with an ARM cortex M33 and a cortex M0 co-processor) with an integrated PMU(power management unit). They also focussed on bringing out a low-power alternative based on a cortex M0 processor as well. When people around were talking highly about the flagship microcontroller, I picked up the reason for the co-processor unit on the chip. It was supposed to be a configurable MAC (also known as CMAC). This essentially allows the BLE stack implementation to be upgradeable during its lifetime via software updates without worrying about the PHY layer dependency.
 
-![]({{site.data.navigation.Images[7][0]}}) 
+![Overview of DA1469x]({{site.data.navigation.Images[7][0]}}) 
 
 ### What is a BOOTROM, and what do I have to do with it?
 
 Soon enough, I was tasked with helping Dennis, the main bootrom developer for both these projects. Dennis, if I haven't said this before is one of the most skillful and intelligent engineers that I have come across at that point. He worked within the same company for almost 12 years in 2018. The bootrom development was nearing completion and had to be rigorously tested before deployment. If there was a chance of bootrom getting into serious trouble during boot up, that product is essentially bricked as the application firmware has to be recognized and loaded successfully by the bootrom to get to the next stages of execution. Mistakes in this development will cause huge $$$ losses to the company.
 
-![]({{site.data.navigation.Images[7][1]}}) 
+![Flowchart of bootrom from one of the older Dialog microcontrollers]({{site.data.navigation.Images[7][1]}}) 
 
 ### Hi Dennis!
 
@@ -36,10 +36,10 @@ In parallel, I was assigned the task of bringing up the HTOL(High-Temperature Op
 
 In the middle of the year, Simon sent me to ARM basic training at Doulos, in the UK, to pick up the basics of ARM architecture. At Doulous, excellent trainers used a well-crafted curriculum to demonstrate and display the basic concepts of how ARM cortex - M range of microcontrollers worked under the hood, right from instruction fetching, decoding, and pipelines. Various hard fault mechanisms and debugger options were also shown clearly.
 
-![]({{site.data.navigation.Images[7][2]}}) 
+![Certificate of completion from Doulos]({{site.data.navigation.Images[7][2]}}) 
 
 Apart from on-site training, I focussed on online and on-demand courses from Udemy to enhance my skillset as well. Specifically, 
 
-![]({{site.data.navigation.Images[7][3]}}) 
+![Udemy certificate of completion for the program "Custom bootloader development"]({{site.data.navigation.Images[7][3]}}) 
 
 

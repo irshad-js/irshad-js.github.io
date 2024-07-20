@@ -20,7 +20,7 @@ The DCTMon software enabled the engineers to talk with the microcontrollers to (
 
 This is a very basic visual indicator of such a program.
 
-![]({{site.data.navigation.Images[8][0]}}) 
+![Imagination of DCTMon]({{site.data.navigation.Images[8][0]}}) 
 
 Naturally, the DCTMon was able to support 10s of different microcontrollers that Dialog produced. This was mainly tackled by the fact that the DCTMon suite had inbuilt definitions for the various microcontroller peripheral memory space. This meant that DCTMon knew about the various peripherals and bits of the various peripherals for all the microcontrollers that Dialog created. 
 
@@ -36,7 +36,7 @@ Having heard this term, SDK, throughout the years, I never really bothered mysel
 
 To put it simply, SDKs are a package of usable modular units of firmware/software that are designed to jumpstart/kick off the rapid development of applications on the intended microcontroller/target hardware. For instance, the SDK provides you with all the interface APIs a developer would need to initialize, read/write to a peripheral, and use a peripheral. The SDK would also hold many example programs that show the optimized ways of using peripherals/features on a microcontroller, right from the startup application to the run-time application.
 
-![]({{site.data.navigation.Images[8][1]}}) 
+![Powerful DA1469x Dev kit]({{site.data.navigation.Images[8][1]}}) 
 
 We practiced the SDK training on our DA1469X dev kit and the latest SDK version of that time. Nikos introduced to us FreeRTOS and its APIs. The SDKs from Dialog have FreeRTOS built within them. The user can develop applications bare-metal or leverage the provided RTOS. The FreeRTOS training was super interesting as it was my first professional experience with an RTOS. Various cool features of FreeRTOS such as Queues, Task notifications, Task creation, Task deletions, Semaphores, and Mutexes were taught and demonstrated.
 
@@ -46,13 +46,15 @@ My experimentation on the same can be found here:
 
 The demonstration of FreeRTOS indeed piqued my interest. I took on a fairly informative introductory course on FreeRTOS demonstrated using STM Nucleo boards. This course by Kiran from FastBit labs, as usual like his other courses, was excellent. In addition to seeing the features of FreeRTOS being explained and demonstrated, the course introduced a nice debugging tool called systemview from Segger. This tool was extraordinary as it gave clear pictorial representations of the system and its level of utilization with the tasks being visualized as bar graphs.
 
-![]({{site.data.navigation.Images[8][2]}}) 
+![Segger systemview capture during the training program]({{site.data.navigation.Images[8][5]}}) 
+
+![Udemy certificate of completion for the program "Master RTOS"]({{site.data.navigation.Images[8][2]}}) 
 
 By the end of the year, I accidentally found an amazing book from Robin Heydon called as Bluetooth Low Energy: The Developer’s Handbook. This book had everything I needed to know about the BLE stack-level details. 
 
-![]({{site.data.navigation.Images[8][3]}}) 
+![Robin Heydon's book]({{site.data.navigation.Images[8][3]}}) 
 
 Also, I was able to brush up my knowledge on ARM cortex-M architecture from a Udemy course from Kiran, called Embedded Systems Programming on ARM Cortex-M3/M4 Processor. This was a good refresher course on cortex-M for me. It reminded me about the Doulos training where all these were already taught for me.
 
-![]({{site.data.navigation.Images[8][4]}}) 
+![Udemy certificate of completion for the program "Embedded Systems Programming on ARM Cortex-M3/M4 Processor"]({{site.data.navigation.Images[8][4]}}) 
 

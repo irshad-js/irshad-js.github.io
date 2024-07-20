@@ -10,11 +10,11 @@ tags: [Experience,Dialog,Simon,Dennis,Wik]
 
 ### Completing my Master's degree in Embedded Systems
 
-![]({{site.data.navigation.Images[6][3]}}) 
+![View from TU Chemnitz campus]({{site.data.navigation.Images[6][3]}}) 
 
 In 2017, I reached the final leg of my master’s degree in Embedded systems at TU Chemnitz, Germany. While working on my final research project and getting my master's thesis ready for submission, I started applying for entry-level embedded software engineer positions within Germany.
 
-![]({{site.data.navigation.Images[6][4]}}) 
+![The building on the right was my main department building]({{site.data.navigation.Images[6][4]}}) 
 
 ### Trying hard for a job
 
@@ -24,17 +24,17 @@ I applied for a graduate-level embedded software engineer role in The Dialog Sem
 
 Simon invited me on-site for a technical interview. I met him and then teammates, Wik and Dennis. All three of them probed me with various basic embedded software and hardware-related questions. After the interview was complete, I went back to my student hostel in Chemnitz, Germany. In a month, I received word from the hiring team at Dialog Semiconductors that I was offered a role there. I happily accepted the role and moved on to formally complete my master's degree as well.
 
-![]({{site.data.navigation.Images[6][2]}}) 
+![Holding my master thesis document before submitting it]({{site.data.navigation.Images[6][2]}}) 
 
 ### My start in The Netherlands
 
 In the last quarter of 2017, I moved to Den Bosch, The Netherlands to start my role as a graduate embedded software engineer. Simon, Dennis, and Wik welcomed me into their team. Simon, my direct boss is also responsible for at least 20+ engineers offshore. Our team directly reported to him. 
 
-![]({{site.data.navigation.Images[6][1]}}) 
+![Train station of Den Bosch]({{site.data.navigation.Images[6][1]}}) 
 
 Wik, the most senior talent on the team, originally started his career/profession as a mechanical engineer. Later down the line, by switching roles strategically he landed a role that mixed software and hardware. Dennis, almost 10 years older than me focused on electronics at the end of his academic journey, thus leading him to this team. Regarding our daily activities, Dennis focussed on developing bootloaders for a new range of microcontrollers that Dialog Semiconductors released to the market. Wik, on the other hand, took care of Direct Test Mode (Lower-level Bluetooth Low Energy stack) related tasks. Until quite recently before I joined, the company was famous for its wireless DECT-related solutions. They gradually saw potential with the low-powered BLE and switched to it.
 
-![]({{site.data.navigation.Images[6][0]}}) 
+![Welcome note from Simon]({{site.data.navigation.Images[6][0]}}) 
 
 ### first tasks on the job
 
@@ -52,4 +52,4 @@ Dialog Semiconductors was previously Sitel Semiconductors which was previously N
 
 The usual process is that, the engineering departments design and come up with IPs for their various flagship offerings. These IPs are packaged and sent to TSMC or GF somewhere in the world to be taped out. When the tape out is deemed successful, they are ready for mass manufacture orders. If the samples from the tape-out have problems during various testing runs, a metal layer change or something similar to a re-run has to be undertaken soon which costs lots of money, which is why people strive very hard to make it right the first time around. 
 
-![]({{site.data.navigation.Images[6][5]}}) 
+![Outside view of Dialog Semiconductors taken from the internet]({{site.data.navigation.Images[6][5]}}) 

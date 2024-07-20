@@ -16,7 +16,7 @@ This course was in essence, a completely self-contained course that starts theor
 
 This is a program that I often would like to revisit when I find more time to spare. I would highly advise the readers to try this out as well.
 
-![]({{site.data.navigation.Images[9][0]}}) 
+![Overview of Nand2Tetris program from the internet]({{site.data.navigation.Images[9][0]}}) 
 
 ### Diving more into Bluetooth Low Energy stack
 
@@ -28,7 +28,7 @@ Wik worked on a lower-level layer of the BLE stack called Direct Test Mode. This
 
 Here is a quick representation of a common production line use-case of such protocol layer (extracted from Texas Instruments documents)
 
-![]({{site.data.navigation.Images[9][1]}})
+![Overview of DTM layer usage from TI's document]({{site.data.navigation.Images[9][1]}})
 
 Various members of the radio design group frequently used the work that Wik created to verify/validate/test/characterize the radio system.
 
@@ -40,15 +40,15 @@ Halfway through the year, I was slowly hearing how great the Kicad PCB design pr
 
 As I had started this year to experiment heavily with BLE, I wanted to do something on the same line with the PCB design experimentation. I found a Nordic BLE module in Aliexpress. I decided to create a base board for this module to use my newfound PCB design. I created a base board and sent it to JLCPCB in China. The first run had a quick problem with the SWD connectors. The connectors had a smaller footprint than the intended one. 
 
-![]({{site.data.navigation.Images[9][9]}})
+![First failed PCB]({{site.data.navigation.Images[9][9]}})
 
 I quickly re-did and corrected the design and had it manufactured. This time, everything went ok and my first PCB design was indeed successful.
 
 Dr. Peter also displays my PCB on his webpage over here: [NRF52 Base board]({{site.data.navigation.Links[9][0]}})
 
-![]({{site.data.navigation.Images[9][2]}})
+![Successful PCB revision]({{site.data.navigation.Images[9][2]}})
 
-![]({{site.data.navigation.Images[9][3]}})
+![Udemy certificate of completion for the PCB design course]({{site.data.navigation.Images[9][3]}})
 
 ### Secure boot
 
@@ -61,11 +61,11 @@ When a more powerful successor for the flagship DA1469X was planned, Dennis was 
 
 Here are some un-edited notes that I created for myself during this learning experience:
 
-![]({{site.data.navigation.Images[9][4]}})
+![Creation/Storage of encrypted application image into Flash]({{site.data.navigation.Images[9][4]}})
 
 Assume that the user has their bootable image ready. To prevent this firmware image from being counterfeited, the image is first cryptographically secured. This type of cryptographic encryption is symmetric as the same key used for the encryption is used for decryption. This new chip will have dedicated secret storage for the encryption/decryption keys. The encryption/decryption key index table in combination with the encryption/decryption key area holds enough space for 8 (4 bytes) index values and 8 (64 bytes) keys. Using one of the encryption/decryption keys that were stored inside the secure area of the chip, the user encrypts the bootable image and stores it in the QSPI/OQSPI Flash device.
 
-![]({{site.data.navigation.Images[9][5]}})
+![Demonstration of the on-the-fly decryption of the encrypted application image]({{site.data.navigation.Images[9][5]}})
 
 Ideally, we configure the on-the-fly-decryption feature that uses a dedicated DMA channel to retrieve the key and decrypt the image on the fly.
 
@@ -73,7 +73,7 @@ Some more notes on signature generation and validation:
 
 To render the device tamper-proof, certain signature creation and validation procedures are performed.
 
-![]({{site.data.navigation.Images[9][6]}})
+![Creation/Storage of hashing results]({{site.data.navigation.Images[9][6]}})
 
 Every public key that resides in the secret storage area has a unique private key. A public key can be derived from the private key, but the private key cannot be derived back from a public key. Hence, they are mostly referred to in pairs. Using the public/private key pair and an encrypted/plain image the user creates a signature by using the appropriate hashing/signature algorithm. The resulting 256/512-bit signature is then stored along the bootable image inside the flash storage. During the boot procedure, the booter checks if the product/image header holds security data. If it does, First, the booter tries to validate/verify the signature of the bootable image present in the flash device.
 
@@ -81,10 +81,10 @@ The booter takes care of signature validation/verification. The booter is config
 
 Finally, the booter compares its result on the hashing/signature generation of the encrypted image with the already stored signature. If they are the same, the bootable image has not been tampered with. If the results are different then the image has been tampered with.
 
-![]({{site.data.navigation.Images[9][7]}})
+![Hashing result validation by the booter]({{site.data.navigation.Images[9][7]}})
 
 After everything was said and done, I still was able to freshen up my knowledge on the cortex-M family through an Udemy course from Kiran titled "Master Microcontroller with Embedded Driver Development".
 
-![]({{site.data.navigation.Images[9][8]}})
+![Udemy certificate of completion for the course "Master Microcontroller with Embedded Driver Development"]({{site.data.navigation.Images[9][8]}})
 
 
