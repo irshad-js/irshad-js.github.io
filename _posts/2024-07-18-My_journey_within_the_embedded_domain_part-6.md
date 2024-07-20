@@ -46,7 +46,7 @@ My initial impression was mixed. (This is mostly because I couldn't see the big 
 
 ### Hierarchical state machines
 
-Going through Dr.Miro's content on his website, [Quantum leaps]({{site.data.navigation.Links[11][4]}})), and on his YouTube channel, [Dr.Miro's YouTube]({{site.data.navigation.Links[11][0]}})), I became interested in learning more about UML, state machines, and event-driven embedded software architecture. On the Udemy platform, I took a course from Kiran on the same topic. I have more detailed observations on Dr. Miro’s content over here: [QPC - 1]({{site.data.navigation.Links[11][6]}})) and here: [QPC - 2]({{site.data.navigation.Links[11][7]}}))
+Going through Dr.Miro's content on his website, [Quantum leaps]({{site.data.navigation.Links[11][4]}})), and on his YouTube channel, [Dr.Miro's YouTube]({{site.data.navigation.Links[11][0]}})), I became interested in learning more about UML, state machines, and event-driven embedded software architecture. On the Udemy platform, I took a course from Kiran on the same topic. I have more detailed observations on Dr. Miro’s content over here: [QPC - 1]({{site.data.navigation.Links[11][5]}})) and here: [QPC - 2]({{site.data.navigation.Links[11][6]}}))
 
 ![Udemy certificate of completion for the program "Embedded System Design using UML State Machines"]({{site.data.navigation.Images[11][2]}}) 
 
