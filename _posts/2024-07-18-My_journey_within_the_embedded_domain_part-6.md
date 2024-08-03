@@ -20,7 +20,7 @@ Stumbling upon some of the fantastic embedded software content from Dr. Miro Sam
 
 ### Design patterns
 
-![Design patterns by the gang of four]({{site.data.navigation.Images[11][0]}}) 
+[Design patterns by the gang of four]({{site.data.navigation.Images[11][0]}}) 
 
 Back in the 90s, people in the software engineering world noticed that several software developers encountered similar problems in their day-to-day tasks. Some people decided to extract common approaches to solving these issues. Thus, the gang of four (the authors of the famous book, "Design Patterns") categorized these common approaches into three different categories. Creational design patterns provided flexibility in creating objects rather than instantiating them directly. One of the most common design patterns under the creational category that I've seen until now is the Factory design pattern, which can in runtime, create different types of objects as needed, and the singleton design pattern which ensures a resource-critical/sensitive class is instantiated exactly once during the lifetime of the application.
 
@@ -28,7 +28,7 @@ In the Structural design patterns category, I liked the decorator design pattern
 
 ### Object-oriented C
 
-![Miro Samek's application note]({{site.data.navigation.Images[11][1]}}) 
+[Miro Samek's application note]({{site.data.navigation.Images[11][1]}}) 
 
 Dr. Miro has multiple useful application notes on his website, this one focussed on object-oriented concepts using C: [Miro's app note] ({{site.data.navigation.Links[11][2]}}). This application note, in combination with the YouTube content from Dr. Miro, has established a good foundation in my mind about the possibility of experimenting the object-oriented concepts using C.
 
@@ -48,7 +48,7 @@ My initial impression was mixed. (This is mostly because I couldn't see the big 
 
 Going through Dr.Miro's content on his website, [Quantum leaps]({{site.data.navigation.Links[11][4]}}), and on his YouTube channel, [Dr.Miro's YouTube]({{site.data.navigation.Links[11][0]}}), I became interested in learning more about UML, state machines, and event-driven embedded software architecture. On the Udemy platform, I took a course from Kiran on the same topic. I have more detailed observations on Dr. Miro’s content over here: [QPC - 1]({{site.data.navigation.Links[11][5]}}) and here: [QPC - 2]({{site.data.navigation.Links[11][6]}})
 
-![Udemy certificate of completion for the program "Embedded System Design using UML State Machines"]({{site.data.navigation.Images[11][2]}}) 
+[Udemy certificate of completion for the program "Embedded System Design using UML State Machines"]({{site.data.navigation.Images[11][2]}}) 
 
 At the end of the Udemy class, I was quite knowledgeable about UML, state machines, and event-driven embedded software design. I was able to practice by creating a kitchen timer experiment using the PCB that I created for the NRF52.
 
@@ -66,7 +66,7 @@ Later I learned that this pile of garbage has spanned a whole industry that coac
 
 My team lead in 2022 in the company specializing in secondment also wanted me to secure a scrum master certification. I read through the text prescribed by people knowledgeable in the domain and gave it a go at the certification test.
 
-![My Scrum master certification]({{site.data.navigation.Images[11][3]}}) 
+[My Scrum master certification]({{site.data.navigation.Images[11][3]}}) 
 
 ## Bosch video surveillance systems
 
@@ -96,44 +96,77 @@ SOLID design and Object-oriented concepts in C
 
 Reference: https://www.baeldung.com/solid-principles
 
-Single responsibility principle: a class should only have one responsibility. Furthermore, it should only have one reason to change.
+Single responsibility principle: a class should only have one responsibility.
+Furthermore, it should only have one reason to change.
 
-Open-closed principle: classes should be open for extension but closed for modification (A popular generic example is USB. USB ports in computers help extension of capabilities but are closed for modification)
+Open-closed principle: classes should be open for extension but closed for modification 
+(A popular generic example is USB. USB ports in computers help extension of capabilities
+but are closed for modification)
 
-Liskov substitution principle: objects of a superclass shall be replaceable with objects of its subclasses without breaking the application
+Liskov substitution principle: objects of a superclass shall be replaceable with 
+objects of its subclasses without breaking the application
 
-Interface segregation principle: larger interfaces should be split into smaller ones. By doing so, we can ensure that implementing classes only need to be concerned about the methods that are of interest to them.
+Interface segregation principle: larger interfaces should be split into smaller ones. 
+By doing so, we can ensure that implementing classes only need to be concerned about 
+the methods that are of interest to them.
 
-The dependency inversion principle refers to the decoupling of software modules. This way, instead of high-level modules depending on low-level modules, both will depend on abstractions.
+The dependency inversion principle refers to the decoupling of software modules. 
+This way, instead of high-level modules depending on low-level modules, both 
+will depend on abstractions.
 
-A real-world scenario I observed SOLID: Flash-loader project built within DCTMon – Microcontrollers need to be interfaced with new SPI flashes from time to time, and application support is necessary.
+A real-world scenario I observed SOLID: Flash-loader project built within DCTMon – 
+Microcontrollers need to be interfaced with new SPI flashes from time to time, 
+and application support is necessary.
 
-The software architecture design restricted the main class to be responsible only for handling the microcontroller interaction with the SPI Flash – thereby fulfilling the single responsibility principle. 
+The software architecture design restricted the main class to be responsible only 
+for handling the microcontroller interaction with the SPI Flash – thereby 
+fulfilling the single responsibility principle. 
 
-The design further restricted modification to the main class except to fix bugs and issues that are found. This meant that the main class was closed to any modifications but was allowed to be extended further by inheriting the base class in the future if any such need arose.
+The design further restricted modification to the main class except to fix 
+bugs and issues that are found. This meant that the main class was closed 
+to any modifications but was allowed to be extended further by inheriting 
+the base class in the future if any such need arose.
 
-The new supported flashes that are often added to the support list would be Quad SPI flash chips that offer 4X the normal data transfer speed. This prompted the design to allow the SPI flashes to be operated in two distinct modes 1. Normal mode and 2. Quad mode. Both the modes are hence interchangeable class implementations of the Flash class interface which now satisfy the Liskov substitution principle.
+The new supported flashes that are often added to the support list would 
+be Quad SPI flash chips that offer 4X the normal data transfer speed. 
+This prompted the design to allow the SPI flashes to be operated in two 
+distinct modes 1. Normal mode and 2. Quad mode. Both the modes are hence 
+interchangeable class implementations of the Flash class interface which 
+now satisfy the Liskov substitution principle.
 
-New flash devices are free to implement any functionality from the base interface class it deems fit thereby satisfying the Interface segregation principle. The design isolates the high-level interface and low-level code using function pointers and hence satisfies the dependency inversion principle.
+New flash devices are free to implement any functionality from the base 
+interface class it deems fit thereby satisfying the Interface segregation 
+principle. The design isolates the high-level interface and low-level 
+code using function pointers and hence satisfies the dependency inversion principle.
 
 ```
 
 ```
 Observations on object-oriented concepts:
 
-Polymorphism - Overloading and Overriding are different - (static or compile time polymorphism) Overloading is when the class has multiple functions with the same name but different inputs (Dynamic polymorphism) and overriding is during run time where the abstract definition of a method from the parent class is defined again with different functionalities in the child class.
+Polymorphism - Overloading and Overriding are different - (static or 
+compile time polymorphism) Overloading is when the class has multiple functions 
+with the same name but different inputs (Dynamic polymorphism) and overriding 
+is during run time where the abstract definition of a method from the parent 
+class is defined again with different functionalities in the child class.
 
 There are compile time or link time polymorphism and run time polymorphism as well.
 
-Run time polymorphism is the technique where passing different function pointers to different places (Dependency injection?) makes the application behavior different during run time due to varying external/internal factors.
+Run time polymorphism is the technique where passing different function pointers 
+to different places (Dependency injection?) makes the application behavior 
+different during run time due to varying external/internal factors.
 
-Build time polymorphism is the technique where you can replace the Hardware abstraction layer of a different target platform to create a portable application that works on multiple platforms.
+Build time polymorphism is the technique where you can replace the Hardware 
+abstraction layer of a different target platform to create a portable 
+application that works on multiple platforms.
 
 Abstraction - Implementation hiding from external actors (to prevent misuse/modification)
 
-Encapsulation - Objects that self-contain methods and attributes/properties into a single unit would be an example of Encapsulation
+Encapsulation - Objects that self-contain methods and attributes/properties 
+into a single unit would be an example of Encapsulation
 
-Inheritance - Base Classes can have their properties inherited by Child classes. Methods and attributes/properties from Base classes are usable by child classes.
+Inheritance - Base Classes can have their properties inherited by Child classes. 
+Methods and attributes/properties from Base classes are usable by child classes.
 
 ```
 
@@ -142,36 +175,65 @@ Objects in C:
 
 Structs are the de-facto objects in C
 
-Inheritance is possible as new structs with base structs included in them can be up-converted (Up casted) to base struct and sent to functions that require base struct
+Inheritance is possible as new structs with base structs included in them can 
+be up-converted (Up casted) to base struct and sent to functions that require base struct
 
-Polymorphism is possible using function pointers and tables - In effect, the main function is going to reference a function with the same name, but depending upon the struct object the reference is going to invoke a different function with a different struct. Hence polymorphism is achieved. One name, many forms.
+Polymorphism is possible using function pointers and tables - In effect, the 
+main function is going to reference a function with the same name, but 
+depending upon the struct object the reference is going to invoke a different
+function with a different struct. Hence polymorphism is achieved. One name, many forms.
 
-Encapsulation is possible by encapsulating functions and data to be acted on into the same struct
+Encapsulation is possible by encapsulating functions and data to be acted on 
+into the same struct
 
 ```
 
 ```
 
-Observer design pattern - Extremely useful design pattern that creates (Publishers that are called Subjects and Subscribers that are called Observers). Observer objects subscribe to Subject objects to be notified when data changes or new data is available.
+Observer design pattern - Extremely useful design pattern that creates (Publishers 
+that are called Subjects and Subscribers that are called Observers). 
+Observer objects subscribe to Subject objects to be notified when data changes
+or new data is available.
 
-Strategy design pattern - Design pattern where the algorithm of the main application is divided into different objects that are called correct during runtime
+Strategy design pattern - Design pattern where the algorithm of the main 
+application is divided into different objects that are called correct 
+during runtime
 
-Decorator design pattern - (Pizza example - Base Pizza is decorated by toppings) Here Pizza Base is the object to be decorated and the toppings class is the decorator object
+Decorator design pattern - (Pizza example - Base Pizza is decorated by 
+toppings) Here Pizza Base is the object to be decorated and the toppings 
+class is the decorator object
 
-Factory design pattern - A pattern where Objects are chosen at run time differently encapsulating important information about said objects
+Factory design pattern - A pattern where Objects are chosen at run time 
+differently encapsulating important information about said objects
 
 Design pattern - Opaque pattern
 
-This pattern is derived from the normal object pattern where the struct with relevant data is declared in the header file and initialized in the accompanying c source file. Any other source file/module with access to the header file is free to use the object as they wish (De reference the object from outside the header/source combo where it was declared).
+This pattern is derived from the normal object pattern where the struct 
+with relevant data is declared in the header file and initialized in the 
+accompanying c source file. Any other source file/module with access to 
+the header file is free to use the object as they wish (De reference the 
+object from outside the header/source combo where it was declared).
 
-The opaque pattern takes it a step further where the header file does not have the struct definition but the source file accompanying the header file has the definition. This means that any source module outside even if it gets its hands on the object, would not be able to dereference or use it as per their liking. This does involve static memory allocation and de-allocation.
+The opaque pattern takes it a step further where the header file does not have 
+the struct definition but the source file accompanying the header file has the 
+definition. This means that any source module outside even if it gets its hands 
+on the object, would not be able to dereference or use it as per their liking. 
+This does involve static memory allocation and de-allocation.
 
-A prime example of this pattern is the python libmpsse dll combination. The libmpsse dll gives out a memory handle that all the functions within the dll need. Even though the user has the memory object or handle from the dll, they are not able to dereference it or use it. thereby isolating the user from the internals of the implementation.
+A prime example of this pattern is the python libmpsse dll combination. The 
+libmpsse dll gives out a memory handle that all the functions within the dll need. 
+Even though the user has the memory object or handle from the dll, they are not 
+able to dereference it or use it. thereby isolating the user from the internals 
+of the implementation.
 
 Design pattern - Singleton pattern
 
-The singleton pattern closely follows the Opaque pattern. consider this: you are technically limited to one opaque pointer. This is now a singleton. No multiple instances are allowed or technically possible.
+The singleton pattern closely follows the Opaque pattern. consider this: you 
+are technically limited to one opaque pointer. This is now a singleton. No 
+multiple instances are allowed or technically possible.
 
-Just like with the opaque pattern, forward declaring structs in the header file and defining them in the source makes any translatable unit/ source file outside impossible to dereference or use the object.
+Just like with the opaque pattern, forward declaring structs in the header file 
+and defining them in the source makes any translatable unit/ source file 
+outside impossible to dereference or use the object.
 
 ```
