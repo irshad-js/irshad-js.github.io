@@ -21,7 +21,7 @@ FTDI has library implementations of their MPSSE (Multi-Protocol Synchronous Seri
 
 Curious from multiple sources pointing to the book titled "Embedded Software Design: A Practical Approach to Architecture, Processes, and Coding Techniques" by Jacob Beningo to be incredible, I picked up a copy to go through.
 
-[Embedded Software Design : Jacob Beningo]({{site.data.navigation.Images[12][0]}}) 
+![Embedded Software Design : Jacob Beningo]({{site.data.navigation.Images[12][0]}}) 
 
 Color me impressed; this book was one of the best books that I have read within the domain of Embedded Systems. Some of the most interesting things to me were:
 
@@ -40,27 +40,27 @@ A key takeaway for me when I completed reading through the book was that modelin
 
 From time to time, I like to revisit the book titled "Test Driven Development for Embedded C" by Jacob Beningo. This time around, I was more mature than during my previous read-through. I decided to work out or walk through all the code examples and exercises found in the various chapters of the book. During this experiment, I have recorded my screen for future reference. If you would like to take a quick look at my walkthrough, the link is here: [TDD code-walkthrough]({{site.data.navigation.Links[12][0]}})
 
-[Test Driven Development for Embedded C : James Grenning]({{site.data.navigation.Images[12][1]}})
+![Test Driven Development for Embedded C : James Grenning]({{site.data.navigation.Images[12][1]}})
 
 This time around, the chapters at the end of the book focussing on SOLID principles were more understandable for me. The various ways to handle CppUTest to test units during development were fun. Working through the example code and the exercise codes has given me enough confidence necessary on the topics of mocks, stubs, unit tests, harnesses, CppUTest, fakes, and other TDD-related jargon.
 
 Fresh off from James Grenning's TDD book, I wanted to test out my newly gained skillset. Udemy has a test-driven development-related course program titled "Interaction Tests, Mocks & Refactoring in Embedded Software". This course, interestingly the most expensive course purchase I have made to date, is structured so that a hardware kit is completely optional. The coursework has a self-contained docker image that has all the tools/software and source code necessary to complete the study. This course uses the testing framework called Unity which was invented by the same course instructors. The framework which is completely written in C has companion tools and modules created in the Ruby scripting language. Truly test-driven development could be observed here. The instructors also introduce various useful design patterns during the course. At the end of the coursework, if the course structure was followed, an application image could be developed without the aid of the respective hardware.
 
-[Interaction Tests, Mocks & Refactoring in Embedded Software]({{site.data.navigation.Images[12][2]}})
+![Interaction Tests, Mocks & Refactoring in Embedded Software]({{site.data.navigation.Images[12][2]}})
 
 ### David Harel and Dr. Miro Samek
 
 I have quickly read through Dr. Miro Samek's book titled "Practical UML Statecharts in C/C++, 2nd Ed" once already, albeit being a quick read that time. This year I decided to sit down and go through the book once more thoroughly. My thoughts on the book are noted here in my other [blog post]({{site.data.navigation.Links[12][1]}})
 
-[Practical UML Statecharts in C/C++, 2nd Ed: Dr. Miro Samek]({{site.data.navigation.Images[12][3]}})
+![Practical UML Statecharts in C/C++, 2nd Ed: Dr. Miro Samek]({{site.data.navigation.Images[12][3]}})
 
 After this thorough read-through, I tested out my understanding of various event-driven software development concepts on my custom NRF52 PCB which I have composed into a [blog post]({{site.data.navigation.Links[12][2]}}). I have more thoughts to record on this topic, which I'll do in the next post for 2024. As a side effect of going through the book, my curiosity was piqued when Dr. Miro demonstrated his Qwin toolset which is a quick graphical toolkit that accompanies his real-time embedded framework. I whipped up a quick demo of my liking using his Qwin toolset
 
-[Demo simulation]({{site.data.navigation.Images[12][4]}})
+![Demo simulation]({{site.data.navigation.Images[12][4]}})
 
 Dr. Miro Samek references the concept of hierarchical state machines as created by Professor David Harel from Israel. Since I liked the idea and convenience of the hierarchical state machines over normal state machines, I decided to learn more directly from the inventor. Lucky for us, Professor David Harel co-handles an impressive Edx-based course titled "Programming for Everyone – An Introduction to Visual Programming Languages".
 
-[Programming for Everyone – An Introduction to Visual Programming Languages]({{site.data.navigation.Images[12][5]}})
+![Programming for Everyone – An Introduction to Visual Programming Languages]({{site.data.navigation.Images[12][5]}})
 
 Choosing to go through this program is a profitable investment. Prof David Harel and his co-instructor make good explanations about the theory behind state charts, live sequence charts, and related misc. The way these concepts give way to effective modeling of systems and algorithms makes them look like a match made in heaven. Don't forget to read through prof David Harel's initial scientific paper on statecharts and their effectiveness which includes a statechart representation of a common Casio digital watch.
 
@@ -82,7 +82,7 @@ During the chip shortage era, it became difficult to procure some of the main mi
 
 Fortunately, Udemy had a fantastic course titled "CMake, Tests, and Tooling for C/C++ Projects [2024 Edition]" which explained the Makefile for Makefile more thoroughly. The instructor was patient enough to start from scratch and explore all the features the Cmake offers.
 
-[CMake, Tests and Tooling for C/C++ Projects]({{site.data.navigation.Images[12][6]}})
+![CMake, Tests and Tooling for C/C++ Projects]({{site.data.navigation.Images[12][6]}})
 
 I would love to recommend this course to anyone willing to learn more about complex build systems.
 

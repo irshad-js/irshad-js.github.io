@@ -20,7 +20,7 @@ Stumbling upon some of the fantastic embedded software content from Dr. Miro Sam
 
 ### Design patterns
 
-[Design patterns by the gang of four]({{site.data.navigation.Images[11][0]}}) 
+![Design patterns by the gang of four]({{site.data.navigation.Images[11][0]}}) 
 
 Back in the 90s, people in the software engineering world noticed that several software developers encountered similar problems in their day-to-day tasks. Some people decided to extract common approaches to solving these issues. Thus, the gang of four (the authors of the famous book, "Design Patterns") categorized these common approaches into three different categories. Creational design patterns provided flexibility in creating objects rather than instantiating them directly. One of the most common design patterns under the creational category that I've seen until now is the Factory design pattern, which can in runtime, create different types of objects as needed, and the singleton design pattern which ensures a resource-critical/sensitive class is instantiated exactly once during the lifetime of the application.
 
@@ -28,7 +28,7 @@ In the Structural design patterns category, I liked the decorator design pattern
 
 ### Object-oriented C
 
-[Miro Samek's application note]({{site.data.navigation.Images[11][1]}}) 
+![Miro Samek's application note]({{site.data.navigation.Images[11][1]}}) 
 
 Dr. Miro has multiple useful application notes on his website, this one focussed on object-oriented concepts using C: [Miro's app note] ({{site.data.navigation.Links[11][2]}}). This application note, in combination with the YouTube content from Dr. Miro, has established a good foundation in my mind about the possibility of experimenting the object-oriented concepts using C.
 
@@ -48,7 +48,7 @@ My initial impression was mixed. (This is mostly because I couldn't see the big 
 
 Going through Dr.Miro's content on his website, [Quantum leaps]({{site.data.navigation.Links[11][4]}}), and on his YouTube channel, [Dr.Miro's YouTube]({{site.data.navigation.Links[11][0]}}), I became interested in learning more about UML, state machines, and event-driven embedded software architecture. On the Udemy platform, I took a course from Kiran on the same topic. I have more detailed observations on Dr. Miro’s content over here: [QPC - 1]({{site.data.navigation.Links[11][5]}}) and here: [QPC - 2]({{site.data.navigation.Links[11][6]}})
 
-[Udemy certificate of completion for the program "Embedded System Design using UML State Machines"]({{site.data.navigation.Images[11][2]}}) 
+![Udemy certificate of completion for the program "Embedded System Design using UML State Machines"]({{site.data.navigation.Images[11][2]}}) 
 
 At the end of the Udemy class, I was quite knowledgeable about UML, state machines, and event-driven embedded software design. I was able to practice by creating a kitchen timer experiment using the PCB that I created for the NRF52.
 
@@ -66,7 +66,7 @@ Later I learned that this pile of garbage has spanned a whole industry that coac
 
 My team lead in 2022 in the company specializing in secondment also wanted me to secure a scrum master certification. I read through the text prescribed by people knowledgeable in the domain and gave it a go at the certification test.
 
-[My Scrum master certification]({{site.data.navigation.Images[11][3]}}) 
+![My Scrum master certification]({{site.data.navigation.Images[11][3]}}) 
 
 ## Bosch video surveillance systems
 
