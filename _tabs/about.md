@@ -10,7 +10,7 @@ order: 4
 
 ### Briefly, about me:
 
-I started my journey into the realm of Embedded Systems back in 2013 during my final semester in my bachelor's degree titled ‚ÄúElectrical and Electronics Engineering‚Äù at Kongu Engineering College, Tamil Nadu, India. That last semester, I was introduced to PIC16F877A (8-bit PIC microcontroller), which, fascinated me enough to take up a master‚Äôs degree course in Embedded Systems from TU Chemnitz, Germany.  
+I started my journey into the realm of Embedded Systems back in 2013 during my final semester in my bachelor's degree titled ìElectrical and Electronics Engineeringî at Kongu Engineering College, Tamil Nadu, India. That last semester, I was introduced to PIC16F877A (8-bit PIC microcontroller), which, fascinated me enough to take up a masterís degree course in Embedded Systems from TU Chemnitz, Germany.  
 
 Kongu Engineering College, India  |  TU Chemnitz, Germany
 :-------------------------:|:-------------------------:
@@ -18,20 +18,20 @@ Kongu Engineering College, India  |  TU Chemnitz, Germany
 
 ### Technical expertise:
 
-Over a decade into the field, I‚Äôve honed my C programming skills targeted toward resource-constrained ARM cortex-M series of microcontrollers. I have also been curious enough to add equivalent working knowledge in using object-oriented key concepts using languages such as C++ along with rapid prototyping languages such as Python.
+Over a decade into the field, Iíve honed my C programming skills targeted toward resource-constrained ARM cortex-M series of microcontrollers. I have also been curious enough to add equivalent working knowledge in using object-oriented key concepts using languages such as C++ along with rapid prototyping languages such as Python.
 
 In addition to experience utilizing basic communication protocols such as UART, SPI, QSPI, I2C, and JTAG-SWD, I have also used and experimented with USB-HID, Bluetooth Low Energy (BLE), Near Field Communication (NFC), and AES Encryption.
 
 ### Niche abilities:  
 
-I have also developed a keen interest in modeling embedded software with Hierarchical state machine techniques (using Miro Samek‚Äôs QPC framework) to achieve the best event-driven system performance coupled with continuous integration techniques and static analysis processes.  
+I have also developed a keen interest in modeling embedded software with Hierarchical state machine techniques (using Miro Samekís QPC framework) to achieve the best event-driven system performance coupled with continuous integration techniques and static analysis processes.  
 
 ### Other notable competencies:
 
-‚Ä¢ Advanced Git user  
-‚Ä¢ Advanced CMake user  
-‚Ä¢ Advanced Makefile user  
-‚Ä¢ Advanced Docker user  
-‚Ä¢ Advanced RTOS (FreeRTOS) user  
-‚Ä¢ Advanced Test-Driven Development practitioner  
-‚Ä¢ Good SOLID Object-oriented design knowledge  
+ï Advanced Git user  
+ï Advanced CMake user  
+ï Advanced Makefile user  
+ï Advanced Docker user  
+ï Advanced RTOS (FreeRTOS) user  
+ï Advanced Test-Driven Development practitioner  
+ï Good SOLID Object-oriented design knowledge  
