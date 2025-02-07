@@ -28,7 +28,7 @@ Finally, I refreshed my understanding of the history state usage through the QPC
 
 The hands-on experimentation of the various important concepts of the QP framework helped to cement the understanding of the theory and the various difficulties in real-world implementation.
 
-[QPC -1]({{site.data.navigation.Links[13][0]}}) and [QPC-2]({{site.data.navigation.Links[13][1]}})
+
 
 ## Software Modelling and Simulations
 
@@ -62,6 +62,6 @@ I selected a couple of Udemy courses and decided to give them a go. The first co
 
 The other course titled The Complete Electronics Course: Analog Hardware Design in Udemy was a nice complement to Andre’s one. This one had at least 24 hours of content and I was able to follow along with the content by simulating the concepts on the falstad webpage.
 
-[Revisiting Electronics]({{site.data.navigation.Links[13][2]}})
+
 
 A huge advantage I gained because of these courses was the my hesitation and fear of using/coming across BJT transistors, MOSFET transistors and OPAMPS were gone as I now deeply understood the theory and practical usage of these discrete components.
